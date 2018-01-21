@@ -188,3 +188,10 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 1731ms (Views: 996.7ms)
 
 
+Started GET "/welcome/index" for 127.0.0.1 at 2018-01-21 02:21:41 +0200
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.slim within layouts/application
+  Rendered welcome/index.html.slim within layouts/application (29.5ms)
+Completed 200 OK in 1862ms (Views: 1035.1ms)
+
+
