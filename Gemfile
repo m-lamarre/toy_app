@@ -15,13 +15,12 @@ gem "slim-rails"
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
-gem 'pg'
 
 # gem 'redis', '~> 3.0'
 # gem 'bcrypt', '~> 3.1.7'
 
 group :development, :test do
-  # gem 'sqlite3'
+  gem 'sqlite3'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
@@ -33,7 +32,7 @@ end
 # gem 'capistrano-rails', group: :development
 
 group :production do
-  # gem 'pg'
+  gem 'pg'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
